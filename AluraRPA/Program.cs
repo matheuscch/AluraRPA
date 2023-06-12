@@ -10,8 +10,6 @@ string? cursoSearchField = Console.ReadLine();
 
 var web = new Web();
 
-web.Click(TypeElement.Xpath, "/html/body/div[1]/div/header/div/nav/div[2]/div/form/button");
-
 var itemPage = 1;
 while (itemPage <= 25)
 {
