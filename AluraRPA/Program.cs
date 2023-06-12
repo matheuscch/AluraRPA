@@ -37,6 +37,7 @@ while (itemPage <= 25)
 
         try
         {
+            //TODO - Command Handler
             SqlConnection con = new SqlConnection(cs);
             con.Open();
             string query = string.Format("insert into Cursos values({0},{1},{2},{3})", scrapName.Value, scrapDescricao.Value, scrapCargaHoraria.Value, scrapProfessor.Value);
