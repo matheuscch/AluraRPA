@@ -10,6 +10,7 @@ string? cursoSearchField = Console.ReadLine();
 
 var web = new Web();
 
+//Para 25 itens na página
 var itemPage = 1;
 while (itemPage <= 25)
 {
